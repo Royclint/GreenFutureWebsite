@@ -1,0 +1,163 @@
+/* General Page Setup */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 30px;
+}
+
+/* Form Section */
+.form-section {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+  color: #2e7d32;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-section p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+/* Footer */
+footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 40px;
+}
+/* Dropdown styling for Enquiry */
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Contact info box */
+.contact-info {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f1f8e9;
+  border-left: 4px solid #2e7d32;
+}
+/* Dropdown styling for Enquiry */
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Contact info box styling */
+.contact-info {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f1f8e9;
+  border-left: 4px solid #2e7d32;
+}
+.external-content {
+  background-color: #ffffff;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.external-content h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.external-content h3 {
+  margin-top: 30px;
+  color: #333;
+}
+
+.map-container, .video-container, .form-container {
+  margin-bottom: 30px;
+  text-align: center;
+}

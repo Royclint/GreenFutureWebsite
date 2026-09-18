@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header with navigation -->
+  <header>
+    <h1>Get Involved</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content: enquiry form -->
+  <main>
+    <section class="form-section">
+      <h2>Volunteer or Sponsor</h2>
+      <p>Fill in your details if you’d like to join our projects or support GreenFuture.</p>
+
+      <!-- Enquiry form -->
+      <form>
+        <!-- Name field -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <!-- Email field -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <!-- Dropdown for interest -->
+        <label for="interest">Area of Interest:</label>
+        <select id="interest" name="interest" required>
+          <option value="">Select one</option>
+          <option value="volunteer">Volunteer</option>
+          <option value="sponsor">Sponsor</option>
+          <option value="partnership">Partnership</option>
+        </select>
+
+        <!-- Message field -->
+        <label for="message">Tell us more:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Why do you want to join?" required></textarea>
+
+        <!-- Submit button -->
+        <button type="submit">Submit Enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 GreenFuture</p>
+
+
+<!-- External Content Section -->
+<section class="external-content">
+  <h2>Explore & Connect</h2>
+  <p>Find our campus, enjoy a video, and send us your enquiry directly below.</p>
+
+  <!-- Google Maps iframe -->
+  <div class="map-container">
+    <h3>Our Campus Location</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d458.9286989441476!2d30.982966842307004!3d-25.474149363104857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee84bbe85453fdd%3A0x7a04784aca95a8b9!2sRosebank%20International%20Mbombela%20Campus!5e1!3m2!1sen!2sza!4v1788973115166!5m2!1sen!2sza" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+      referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+  </div>
+
+  
+ <!-- Featured Video (thumbnail link instead of blocked embed) -->
+<div class="video-container">
+  <h3>Featured Video</h3>
+  <a href="https://www.youtube.com/watch?v=DDdrTxjmabM" target="_blank">
+    <img src="https://img.youtube.com/vi/DDdrTxjmabM/hqdefault.jpg" 
+         alt="Watch on YouTube" style="width:560px;border-radius:8px;">
+  </a>
+  <p><em>Click the image to watch the video on YouTube.</em></p>
+</div>
+
+
+
+  </div>
+
+  <!-- Google Form iframe -->
+  <div class="form-container">
+    <h3>Send Us Your Enquiry</h3>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSebK0on6An-YWJDcjPaQG9trPPur5YoHMZBidIldcWr3znlVg/viewform?embedded=true" 
+      width="640" height="1521" frameborder="0" marginheight="0" marginwidth="0">
+      Loading…
+    </iframe>
+  </div>
+</section>
+
+
+
+  </footer>
+</body>
+</html>
