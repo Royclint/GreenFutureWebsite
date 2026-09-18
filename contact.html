@@ -3,66 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
+  <title>Contact – Mpumalanga GreenFuture</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Header with navigation -->
+  <!-- Header -->
   <header>
-    <h1>Contact GreenFuture</h1>
+    <h1>Contact Us</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="enquiry.html">Enquiry</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Main content: contact form -->
+  <!-- Main content -->
   <main>
-    <section class="form-section">
-      <h2>Contact Us</h2>
-      <p>Have a question or need more information? Send us a message below.</p>
+    <!-- Contact Information -->
+    <section class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>We’d love to hear from you! Reach out using the details below:</p>
+      <ul>
+        <li><strong>Address:</strong> Rosebank College Mbombela Campus, Mpumalanga, South Africa</li>
+        <li><strong>Phone:</strong> +27 13 123 4567</li>
+        <li><strong>Email:</strong> info@greenfuture.org</li>
+      </ul>
+    </section>
 
-      <!-- Contact form -->
-      <form>
-        <!-- Name field -->
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-        <!-- Email field -->
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-        <!-- Subject field -->
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" placeholder="Message subject" required>
-
-        <!-- Message field -->
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
-
-        <!-- Submit button -->
-        <button type="submit">Send Message</button>
-      </form>
-
-      <!-- Extra contact info -->
-      <div class="contact-info">
-        <h3>Other Ways to Reach Us</h3>
-        <p>Email: info@greenfuture.org</p>
-        <p>Phone: +27 82 123 4567</p>
-        <p>Location: Mbombela, Mpumalanga, South Africa</p>
+    <!-- Map Embed -->
+    <section class="map-section">
+      <h2>Find Us</h2>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.123456789!2d30.975!3d-25.465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee83a123456789%3A0xabcdef123456789!2sRosebank%20College%20Mbombela!5e0!3m2!1sen!2sza!4v1695030000000!5m2!1sen!2sza" 
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
       </div>
     </section>
   </main>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2026 GreenFuture</p>
+    <p>&copy; 2026 Mpumalanga GreenFuture | Designed by Akani Royclint (ST10503321)</p>
   </footer>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d458.9286989441476!2d30.982966842307004!3d-25.474149363104857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee84bbe85453fdd%3A0x7a04784aca95a8b9!2sRosebank%20International%20Mbombela%20Campus!5e1!3m2!1sen!2sza!4v1788973115166!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </body>
 </html>
